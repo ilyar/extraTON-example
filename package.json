@@ -1,0 +1,22 @@
+{
+  "name": "example-simple",
+  "version": "1.0.0",
+  "description": "Extraton example",
+  "repository": "https://github.com/extraton/example-simple",
+  "author": "qwertys318, maxvx",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dist": "webpack-cli",
+    "serve": "webpack-cli serve"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.2.1",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "freeton": "^0.4.0"
+  }
+}

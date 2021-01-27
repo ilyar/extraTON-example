@@ -1,0 +1,33 @@
+{
+  "networks":  {
+    "2": {
+      "address": "0:b298b99271b88df9b6babdf0f99715f89da4030c0dee44eb3ee00e296ed63f51"
+    }
+  },
+  "abi": {
+    "ABI version": 2,
+    "header": ["time", "expire"],
+    "functions": [
+      {
+        "name": "result",
+        "inputs": [
+          {"name":"i","type":"uint256"}
+        ],
+        "outputs": [
+          {"name":"value0","type":"uint256"}
+        ]
+      },
+      {
+        "name": "constructor",
+        "inputs": [
+        ],
+        "outputs": [
+        ]
+      }
+    ],
+    "data": [
+    ],
+    "events": [
+    ]
+  }
+}
